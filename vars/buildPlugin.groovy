@@ -1,5 +1,5 @@
 def call(Map config) {
     node {
-        sh 'echo Hi'
+        sh 'echo Hi ${config.url}'
     }
 }
